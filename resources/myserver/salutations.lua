@@ -4,9 +4,6 @@ function salutations_sir ( )
 end
 
 function rgb_message( player, cmd, r, g, b, text )  
-	local min_color_value = 0
-	local max_color_value = 255
-
 		if cmd == 'chatmessage' then
 			r = tonumber(r)
 			g = tonumber(g)
